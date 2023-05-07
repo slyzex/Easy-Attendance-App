@@ -49,20 +49,20 @@ public class Insert_class_Activity extends AppCompatActivity {
         Realm.init(this);
         realm = Realm.getDefaultInstance();
 
-        final RadioRealButton button1 = (RadioRealButton) findViewById(R.id.button1);
-        final RadioRealButton button2 = (RadioRealButton) findViewById(R.id.button2);
-        final RadioRealButton button3 = (RadioRealButton) findViewById(R.id.button3);
-        final RadioRealButton button4 = (RadioRealButton) findViewById(R.id.button4);
-        final RadioRealButton button5 = (RadioRealButton) findViewById(R.id.button5);
-        final RadioRealButton button6 = (RadioRealButton) findViewById(R.id.button6);
+        // final RadioRealButton button1 = (RadioRealButton) findViewById(R.id.button1);
+        // final RadioRealButton button2 = (RadioRealButton) findViewById(R.id.button2);
+        // final RadioRealButton button3 = (RadioRealButton) findViewById(R.id.button3);
+        // final RadioRealButton button4 = (RadioRealButton) findViewById(R.id.button4);
+        // final RadioRealButton button5 = (RadioRealButton) findViewById(R.id.button5);
+        // final RadioRealButton button6 = (RadioRealButton) findViewById(R.id.button6);
 
-        RadioRealButtonGroup group = (RadioRealButtonGroup) findViewById(R.id.group);
-        group.setOnClickedButtonPosition(new RadioRealButtonGroup.OnClickedButtonPosition() {
-            @Override
-            public void onClickedButtonPosition(int position) {
-                position_bg = String.valueOf(position);
-            }
-        });
+        // RadioRealButtonGroup group = (RadioRealButtonGroup) findViewById(R.id.group);
+        // group.setOnClickedButtonPosition(new RadioRealButtonGroup.OnClickedButtonPosition() {
+        //     @Override
+        //     public void onClickedButtonPosition(int position) {
+        //         position_bg = String.valueOf(position);
+        //     }
+        // });
 
         create_button.setOnClickListener(new View.OnClickListener() {
             @Override

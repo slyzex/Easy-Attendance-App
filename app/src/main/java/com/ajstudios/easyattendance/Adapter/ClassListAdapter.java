@@ -67,35 +67,35 @@ public class ClassListAdapter extends RealmRecyclerViewAdapter<Class_Names, View
         holder.class_name.setText(temp.getName_class());
         holder.subject_name.setText(temp.getName_subject());
 
-        switch (temp.getPosition_bg()) {
-            case "0":
-                holder.imageView_bg.setImageResource(R.drawable.asset_bg_paleblue);
-                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_1);
-                break;
-            case "1":
-                holder.imageView_bg.setImageResource(R.drawable.asset_bg_green);
-                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_2);
-                break;
-            case "2":
-                holder.imageView_bg.setImageResource(R.drawable.asset_bg_yellow);
-                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_3);
-                break;
-            case "3":
-                holder.imageView_bg.setImageResource(R.drawable.asset_bg_palegreen);
-                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_4);
-                break;
-            case "4":
-                holder.imageView_bg.setImageResource(R.drawable.asset_bg_paleorange);
-                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_5);
-                break;
-            case "5":
-                holder.imageView_bg.setImageResource(R.drawable.asset_bg_white);
-                holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_6);
-                holder.subject_name.setTextColor(holder.itemView.getContext().getResources().getColor(R.color.text_color_secondary));
-                holder.class_name.setTextColor(holder.itemView.getContext().getResources().getColor(R.color.text_color_secondary));
-                holder.total_students.setTextColor(holder.itemView.getContext().getResources().getColor(R.color.text_color_secondary));
-                break;
-        }
+        // switch (temp.getPosition_bg()) {
+        //     case "0":
+        //         holder.imageView_bg.setImageResource(R.drawable.asset_bg_paleblue);
+        //         holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_1);
+        //         break;
+        //     case "1":
+        //         holder.imageView_bg.setImageResource(R.drawable.asset_bg_green);
+        //         holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_2);
+        //         break;
+        //     case "2":
+        //         holder.imageView_bg.setImageResource(R.drawable.asset_bg_yellow);
+        //         holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_3);
+        //         break;
+        //     case "3":
+        //         holder.imageView_bg.setImageResource(R.drawable.asset_bg_palegreen);
+        //         holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_4);
+        //         break;
+        //     case "4":
+        //         holder.imageView_bg.setImageResource(R.drawable.asset_bg_paleorange);
+        //         holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_5);
+        //         break;
+        //     case "5":
+        //         holder.imageView_bg.setImageResource(R.drawable.asset_bg_white);
+        //         holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_6);
+        //         holder.subject_name.setTextColor(holder.itemView.getContext().getResources().getColor(R.color.text_color_secondary));
+        //         holder.class_name.setTextColor(holder.itemView.getContext().getResources().getColor(R.color.text_color_secondary));
+        //         holder.total_students.setTextColor(holder.itemView.getContext().getResources().getColor(R.color.text_color_secondary));
+        //         break;
+        // }
 
     }
 }

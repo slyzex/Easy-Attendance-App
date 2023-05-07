@@ -112,31 +112,31 @@ public class ClassDetail_Activity extends AppCompatActivity {
         submit_btn = findViewById(R.id.submit_attendance_btn);
         submit_btn.setVisibility(View.GONE);
 
-        switch (theme) {
-            case "0":
-                themeImage.setImageResource(R.drawable.asset_bg_paleblue);
-                break;
-            case "1":
-                themeImage.setImageResource(R.drawable.asset_bg_green);
+        // switch (theme) {
+        //     case "0":
+        //         themeImage.setImageResource(R.drawable.asset_bg_paleblue);
+        //         break;
+        //     case "1":
+        //         themeImage.setImageResource(R.drawable.asset_bg_green);
 
-                break;
-            case "2":
-                themeImage.setImageResource(R.drawable.asset_bg_yellow);
+        //         break;
+        //     case "2":
+        //         themeImage.setImageResource(R.drawable.asset_bg_yellow);
 
-                break;
-            case "3":
-                themeImage.setImageResource(R.drawable.asset_bg_palegreen);
+        //         break;
+        //     case "3":
+        //         themeImage.setImageResource(R.drawable.asset_bg_palegreen);
 
-                break;
-            case "4":
-                themeImage.setImageResource(R.drawable.asset_bg_paleorange);
+        //         break;
+        //     case "4":
+        //         themeImage.setImageResource(R.drawable.asset_bg_paleorange);
 
-                break;
-            case "5":
-                themeImage.setImageResource(R.drawable.asset_bg_white);
-                break;
+        //         break;
+        //     case "5":
+        //         themeImage.setImageResource(R.drawable.asset_bg_white);
+        //         break;
 
-        }
+        // }
 
         //---------------------------------
 

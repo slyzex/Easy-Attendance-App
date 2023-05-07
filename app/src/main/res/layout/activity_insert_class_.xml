@@ -55,14 +55,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Select theme :"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:textColor="@color/text_color_dark"
         android:textSize="18dp"
         android:layout_marginTop="12dp"/>
 
-    <co.ceryle.radiorealbutton.library.RadioRealButtonGroup
+    <!-- <co.ceryle.radiorealbutton.library.RadioRealButtonGroup
         android:id="@+id/group"
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -137,7 +136,7 @@
             app:rrb_ripple="true"
             app:rrb_rippleColor="@color/black"
             />
-    </co.ceryle.radiorealbutton.library.RadioRealButtonGroup>
+    </co.ceryle.radiorealbutton.library.RadioRealButtonGroup> -->
 
     <Button
         android:id="@+id/button_createClass"

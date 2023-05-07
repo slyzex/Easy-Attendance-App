@@ -19,7 +19,8 @@
         <activity
             android:name="com.ajstudios.easyattendance.Insert_class_Activity"
             android:theme="@style/AppTheme2" />
-        <activity android:name="com.ajstudios.easyattendance.MainActivity">
+        <activity android:name="com.ajstudios.easyattendance.MainActivity"/>
+        <activity android:name="com.ajstudios.easyattendance.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
